@@ -1,32 +1,3 @@
-
-section:not(#title-slide) h1, section:not(#title-slide) h2 {
-  font-family: SpaceMono, monospace !important;
-  font-size:larger !important
-}
-
-h1, h2 {
-  background-color:white; 
-  color: rgba(0, 0, 0, 1) !important;
-  opacity: .8;
-  padding:.9rem;
-}
-
-li, blockquote {
-  background-color:white !important; 
-  color: rgba(0, 0, 0, 1) !important;
-  opacity:.9;
-  padding:.9rem;
-}
-
-div.refs {
-  background-color:white; 
-  color: rgba(0, 0, 0, 1);
-}
-
-img {
-  background-color:white; 
-}
-
 @font-face {
   font-family: "AtkinsonHyperlegible";
   src: url("WOFF/Atkinson-Hyperlegible-Regular-102.woff") format('woff');
