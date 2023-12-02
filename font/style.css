@@ -1,3 +1,17 @@
+h1, h2, h3, code{
+  font-family: SpaceMono, monospace !important;
+}
+
+code {
+  font-family: SpaceMono, monospace !important;
+  text-shadow: 0 0 2px #00cc00, 0 0 5px #00cc00;
+}
+
+section p {
+  font-family: AtkinsonHyperlegible !important;
+  font-size:larger !important;
+}
+
 @font-face {
   font-family: "AtkinsonHyperlegible";
   src: url("WOFF/Atkinson-Hyperlegible-Regular-102.woff") format('woff');
