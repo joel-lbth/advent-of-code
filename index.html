@@ -95,10 +95,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<section id="day-0" class="level1">
-<h1>📆 day 0</h1>
-<section id="brief" class="level2">
-<h2 class="anchored" data-anchor-id="brief">📜 brief</h2>
+<section id="day-0" class="level2">
+<h2 class="anchored" data-anchor-id="day-0">📆 day 0</h2>
+<section id="brief" class="level3">
+<h3 class="anchored" data-anchor-id="brief">📜 brief</h3>
 <p>On each line, the calibration value can be found by combining the first digit and the last digit (in that order) to form a single two-digit number.</p>
 <p>For example:</p>
 <pre><code>1abc2
@@ -108,8 +108,8 @@ treb7uchet</code></pre>
 <p>In this example, the calibration values of these four lines are 12, 38, 15, and 77.</p>
 <p>Adding these together produces 142.</p>
 </section>
-<section id="solution" class="level2">
-<h2 class="anchored" data-anchor-id="solution">🛠️ solution</h2>
+<section id="solution" class="level3">
+<h3 class="anchored" data-anchor-id="solution">🛠️ solution</h3>
 <div class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> day00(<span class="bu">input</span><span class="op">=</span><span class="bu">input</span>):</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="im">import</span> re</span>
@@ -143,10 +143,10 @@ treb7uchet</code></pre>
 </div>
 </section>
 </section>
-<section id="day-01" class="level1">
-<h1>📆 day 01</h1>
-<section id="brief-1" class="level2">
-<h2 class="anchored" data-anchor-id="brief-1">📜 brief</h2>
+<section id="day-01" class="level2">
+<h2 class="anchored" data-anchor-id="day-01">📆 day 01</h2>
+<section id="brief-1" class="level3">
+<h3 class="anchored" data-anchor-id="brief-1">📜 brief</h3>
 <p>…a small bag and some cubes which are either red, green, or blue. Each time you play this game, they will hide a secret number of cubes of each color in the bag, and your goal is to figure out information about the number of cubes.</p>
 <p>To get information, once a bag has been loaded with cubes, they will reach into the bag, grab a handful of random cubes, show them to you, and then put them back in the bag; a few times per game.</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span>: <span class="dv">3</span> blue, <span class="dv">4</span> red<span class="op">;</span> <span class="dv">1</span> red, <span class="dv">2</span> green, <span class="dv">6</span> blue<span class="op">;</span> <span class="dv">2</span> green</span>
@@ -156,8 +156,8 @@ treb7uchet</code></pre>
 <span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="dv">5</span>: <span class="dv">6</span> red, <span class="dv">1</span> blue, <span class="dv">3</span> green<span class="op">;</span> <span class="dv">2</span> blue, <span class="dv">1</span> red, <span class="dv">2</span> green</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>…which games would have been possible if the bag contained 12 red cubes, 13 green cubes, and 14 blue cubes? What is the sum of the IDs of those games? If you add up the IDs of the games that would have been possible, you get 8.</p>
 </section>
-<section id="solution-1" class="level2">
-<h2 class="anchored" data-anchor-id="solution-1">🛠️ solution</h2>
+<section id="solution-1" class="level3">
+<h3 class="anchored" data-anchor-id="solution-1">🛠️ solution</h3>
 <div class="cell" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>sample <span class="op">=</span> <span class="st">'''Game 1: 3 blue, 4 red; 1 red, 2 green, 6 blue; 2 green</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="st">Game 2: 1 blue, 2 green; 3 green, 4 blue, 1 red; 1 green, 1 blue</span></span>
@@ -217,10 +217,10 @@ treb7uchet</code></pre>
 </div>
 </section>
 </section>
-<section id="day-02" class="level1">
-<h1>📆 day 02</h1>
-<section id="brief-2" class="level2">
-<h2 class="anchored" data-anchor-id="brief-2">📜 brief</h2>
+<section id="day-02" class="level2">
+<h2 class="anchored" data-anchor-id="day-02">📆 day 02</h2>
+<section id="brief-2" class="level3">
+<h3 class="anchored" data-anchor-id="brief-2">📜 brief</h3>
 <blockquote class="blockquote">
 <p>any number adjacent to a symbol, even diagonally</p>
 </blockquote>
@@ -238,8 +238,8 @@ treb7uchet</code></pre>
 <p>In this schematic, two numbers are not part numbers because they are not adjacent to a symbol: 114 (top right) and 58 (middle right). Every other number is adjacent to a symbol and so is a part number; <strong>their sum is 4361</strong>.</p>
 </blockquote>
 </section>
-<section id="solution-2" class="level2">
-<h2 class="anchored" data-anchor-id="solution-2">🛠️ solution</h2>
+<section id="solution-2" class="level3">
+<h3 class="anchored" data-anchor-id="solution-2">🛠️ solution</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># make a list to tally values</span></span>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="co"># read through the grid, </span></span>
@@ -444,6 +444,29 @@ treb7uchet</code></pre>
 </div>
 <p>ran out of time on this one, the next step was to make the above matching exercise work for each number in the grid</p>
 </section>
+</section>
+<section id="day-03" class="level2">
+<h2 class="anchored" data-anchor-id="day-03">📆 day 03</h2>
+<p>eek, my pitch to run a workshop for the turing academy was accepted today for a session tomorrow! will have to pass today’s instalment and prepare. here was the puzzle:</p>
+<blockquote class="blockquote">
+<p>…you have to figure out which of the numbers you have appear in the list of winning numbers. The first match makes the card worth one point and each match after the first doubles the point value of that card. For example:</p>
+</blockquote>
+<pre><code>Card 1: 41 48 83 86 17 | 83 86  6 31 17  9 48 53
+Card 2: 13 32 20 16 61 | 61 30 68 82 17 32 24 19
+Card 3:  1 21 53 59 44 | 69 82 63 72 16 21 14  1
+Card 4: 41 92 73 84 69 | 59 84 76 51 58  5 54 83
+Card 5: 87 83 26 28 32 | 88 30 70 12 93 22 82 36
+Card 6: 31 18 13 56 72 | 74 77 10 23 35 67 36 11</code></pre>
+<blockquote class="blockquote">
+<p>In the above example, card 1 has five winning numbers (41, 48, 83, 86, and 17) and eight numbers you have (83, 86, 6, 31, 17, 9, 48, and 53). Of the numbers you have, four of them (48, 83, 17, and 86) are winning numbers! That means card 1 is worth 8 points (1 for the first match, then doubled three times for each of the three matches after the first).</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Card 2 has two winning numbers (32 and 61), so it is worth 2 points. Card 3 has two winning numbers (1 and 21), so it is worth 2 points. Card 4 has one winning number (84), so it is worth 1 point. Card 5 has no winning numbers, so it is worth no points. Card 6 has no winning numbers, so it is worth no points.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>So, in this example, the Elf’s pile of scratchcards is worth 13 points. How many points are they worth in total?</p>
+</blockquote>
+<p>i guess this would have been a catch of comparing two lists, very useful for practising lined data analysis!</p>
 </section>
 
 </main>
